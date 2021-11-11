@@ -47,10 +47,11 @@
 }
 
 .banner {
-    background-image: url('./images/logo.webp');
+    background: linear-gradient(rgb(0,0,0,0.6), rgba(20, 13, 13, 0.5)), 
+        url('./images/logo.webp');
     background-size: cover;
     background-position: center;
-    height: 550px;
+    height: 600px;
 }
 
 .banner-text {
@@ -94,7 +95,7 @@
 }
 
 .banner-text-suggest {
-    margin-bottom: 175px;
+    margin-bottom: 200px;
 }
 
 .banner-text-small {
@@ -121,18 +122,18 @@
 .column4 {
     flex-basis: 400px;
     flex-grow: 1;
-    max-width: 650px;
+    max-width: 950px;
 }
 
 .column3 {
     flex-basis: 200px;
-    max-width: 300px;
+    max-width: 950px;
     flex-grow: 1;
 }
 
 .column2 {
     flex-basis: 250px;
-    max-width: 280px;
+    max-width: 950px;
     flex-grow: 1;
 }
 
