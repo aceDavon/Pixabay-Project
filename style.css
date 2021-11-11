@@ -53,35 +53,52 @@
     height: 550px;
 }
 
-.banner h1 {
+.banner-text {
     color: white;
-    text-align: center;
-    position: relative;
-    top: 150px;
-
+    width: 65%;
+    margin: auto;
+    padding-top: 130px;
 }
 
-.intro-text {
-    margin-top: 150px;
-    color: white;
-    text-align: center;
-}
-.text-input {
-    margin-left: 580px;
-    margin-top: 150px;
-}
-
-.banner-footer {
-    margin: 80px 0 3px 60px;
-    color: white;
+.banner-text h1 {
+    font-size: 45px;
+    padding: 12px 0;
     text-align: center;
 }
 
-.banner-footer input {
-    padding: 18px 250px;
-    border-radius: 5px;
-    border: none;
-    margin-bottom: 8px;
+.banner-text p {
+    font-size: larger;
+    text-align: center;
+}
+
+.banner i {
+    position: absolute;
+    color: black;
+    padding: 8px;
+    margin: 25px 5px 0 8px ;
+}
+
+.holder {
+    position: absolute;
+    margin: 30px 8px 0 850px ;
+    color: grey;
+    font-size: 15px;
+}
+
+.banner-text input {
+    padding: 20px;
+    width: 100%;
+    margin: 12px 0;
+    border: solid grey 1px;
+    border-radius: 8px;
+}
+
+.banner-text-suggest {
+    margin-bottom: 175px;
+}
+
+.banner-text-small {
+    text-align: center;
 }
 
 .row1 {
@@ -110,11 +127,13 @@
 .column3 {
     flex-basis: 200px;
     max-width: 300px;
+    flex-grow: 1;
 }
 
 .column2 {
     flex-basis: 250px;
     max-width: 280px;
+    flex-grow: 1;
 }
 
 .footer {
